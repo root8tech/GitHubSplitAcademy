@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Split Academy.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>F9A3EE94E1F0AE1424C9819C4B9C585F20B49486</string>
+				<key>dateExpires</key>
+				<string>20/03/24</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>B2V27BV98Y.root8.Split-Academy</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>B2V27BV98Y</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>Split Academy.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>ea949a53-f4ff-43dd-b1e6-4a2059236dd3</string>
+				<key>dateExpires</key>
+				<string>06/04/23</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: root8.Split-Academy</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>B2V27BV98Y</string>
+				<key>name</key>
+				<string>Manuel Lotti</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

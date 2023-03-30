@@ -1,0 +1,36 @@
+
+App Thinning Size Report for All Variants of Split Academy
+
+Variant: Split Academy-7C799DE9-5004-4EDE-9162-323330CFAEE7.ipa
+Supported variant descriptors: [device: iPhone12,3, os-version: 15.0], [device: iPhone10,3, os-version: 15.0], [device: iPhone14,2, os-version: 15.0], [device: iPhone13,4, os-version: 15.0], [device: iPhone10,5, os-version: 15.0], [device: iPhone13,3, os-version: 15.0], [device: iPhone10,6, os-version: 15.0], [device: iPhone9,2, os-version: 15.0], [device: iPhone14,4, os-version: 15.0], [device: iPhone13,1, os-version: 15.0], [device: iPhone14,5, os-version: 15.0], [device: iPhone13,2, os-version: 15.0], [device: iPhone11,4, os-version: 15.0], [device: iPhone9,4, os-version: 15.0], [device: iPhone12,5, os-version: 15.0], [device: iPhone10,2, os-version: 15.0], [device: iPhone11,6, os-version: 15.0], [device: iPhone8,2, os-version: 15.0], [device: iPhone14,3, os-version: 15.0], and [device: iPhone11,2, os-version: 15.0]
+App + On Demand Resources size: 131 KB compressed, 284 KB uncompressed
+App size: 131 KB compressed, 284 KB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Split Academy-7DC2E290-1034-4DA5-8F47-15B97BF85CFE.ipa
+Supported variant descriptors: [device: iPhone9,1, os-version: 15.0], [device: iPhone12,8, os-version: 15.0], [device: iPod9,1, os-version: 15.0], [device: iPhone8,4, os-version: 15.0], [device: iPhone9,3, os-version: 15.0], [device: iPhone10,1, os-version: 15.0], [device: iPhone10,4, os-version: 15.0], and [device: iPhone8,1, os-version: 15.0]
+App + On Demand Resources size: 112 KB compressed, 263 KB uncompressed
+App size: 112 KB compressed, 263 KB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Split Academy-9B9CED2D-6102-4F8E-8984-9D2FDAC93AB9.ipa
+Supported variant descriptors: [device: iPhone12,1, os-version: 15.0] and [device: iPhone11,8, os-version: 15.0]
+App + On Demand Resources size: 132 KB compressed, 292 KB uncompressed
+App size: 132 KB compressed, 292 KB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Split Academy-E01CF3D6-D0B3-4623-8A7F-7DF4FB22A46F.ipa
+Supported variant descriptors: [device: iPad13,1, os-version: 15.0], [device: iPad7,5, os-version: 15.0], [device: iPad8,1, os-version: 15.0], [device: iPad8,3, os-version: 15.0], [device: iPad6,7, os-version: 15.0], [device: iPad6,12, os-version: 15.0], [device: iPad11,6, os-version: 15.0], [device: iPad6,11, os-version: 15.0], [device: iPad13,6, os-version: 15.0], [device: iPad11,2, os-version: 15.0], [device: iPad8,2, os-version: 15.0], [device: iPad8,8, os-version: 15.0], [device: iPad8,9, os-version: 15.0], [device: iPad8,12, os-version: 15.0], [device: iPad11,1, os-version: 15.0], [device: MacFamily20,1, os-version: 15.0], [device: iPad13,8, os-version: 15.0], [device: iPad8,6, os-version: 15.0], [device: iPad7,12, os-version: 15.0], [device: iPad11,3, os-version: 15.0], [device: iPad7,1, os-version: 15.0], [device: iPad8,7, os-version: 15.0], [device: iPad13,4, os-version: 15.0], [device: iPad13,10, os-version: 15.0], [device: iPad5,4, os-version: 15.0], [device: iPad11,4, os-version: 15.0], [device: iPad5,3, os-version: 15.0], [device: iPad13,5, os-version: 15.0], [device: iPad12,2, os-version: 15.0], [device: iPad6,4, os-version: 15.0], [device: iPad6,8, os-version: 15.0], [device: iPad6,3, os-version: 15.0], [device: iPad8,10, os-version: 15.0], [device: iPad8,11, os-version: 15.0], [device: iPad5,1, os-version: 15.0], [device: iPad11,7, os-version: 15.0], [device: iPad13,11, os-version: 15.0], [device: iPad14,2, os-version: 15.0], [device: iPad13,2, os-version: 15.0], [device: iPad12,1, os-version: 15.0], [device: iPad7,4, os-version: 15.0], [device: iPad14,1, os-version: 15.0], [device: iPad8,5, os-version: 15.0], [device: iPad7,11, os-version: 15.0], [device: iPad5,2, os-version: 15.0], [device: iPad8,4, os-version: 15.0], [device: iPad7,3, os-version: 15.0], [device: iPad7,6, os-version: 15.0], [device: iPad7,2, os-version: 15.0], [device: iPad13,7, os-version: 15.0], and [device: iPad13,9, os-version: 15.0]
+App + On Demand Resources size: 135 KB compressed, 296 KB uncompressed
+App size: 135 KB compressed, 296 KB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Split Academy.ipa
+Supported variant descriptors: Universal
+App + On Demand Resources size: 461 KB compressed, 734 KB uncompressed
+App size: 461 KB compressed, 734 KB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed

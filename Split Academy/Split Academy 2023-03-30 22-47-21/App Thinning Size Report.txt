@@ -1,0 +1,8 @@
+
+App Thinning Size Report for All Variants of Split Academy
+
+Variant: Split Academy-1E615D93-6F03-4882-A4FA-409F874070DB.ipa
+Supported variant descriptors: [device: iPhone12,5, os-version: 15.0], [device: iPhone10,6, os-version: 15.0], [device: iPhone14,2, os-version: 15.0], [device: iPhone8,2, os-version: 15.0], [device: iPhone11,4, os-version: 15.0], [device: iPhone14,5, os-version: 15.0], [device: iPhone13,4, os-version: 15.0], [device: iPhone14,3, os-version: 15.0], [device: iPhone11,2, os-version: 15.0], [device: iPhone13,3, os-version: 15.0], [device: iPhone10,3, os-version: 15.0], [device: iPhone11,6, os-version: 15.0], [device: iPhone10,2, os-version: 15.0], [device: iPhone13,2, os-version: 15.0], [device: iPhone12,3, os-version: 15.0], [device: iPhone14,4, os-version: 15.0], [device: iPhone9,2, os-version: 15.0], [device: iPhone9,4, os-version: 15.0], [device: iPhone10,5, os-version: 15.0], and [device: iPhone13,1, os-version: 15.0]
+App + On Demand Resources size: 131 KB compressed, 283 KB uncompressed
+App size: 131 KB compressed, 283 KB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
