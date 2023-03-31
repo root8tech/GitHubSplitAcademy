@@ -138,20 +138,36 @@ struct QRScannerView: View {
     @State private var showWebView2 = false
     
     
-    
+
     var body: some View {
         VStack {
             if let text = scannedText {
-                Text("Scanned Text: \(text)")
+                Text("Scanned QR: \(text)")
                 
                 
+                /*
+                 
                 Link(destination: URL(string: text)!, label: {
                     Text("Open in new window")
                         .foregroundColor(.blue)
                 })
+                 
+                */
+
                 
-     
-               
+                Link(destination: URL(string: text)!) {
+                    Text("Open in same window")
+                        .foregroundColor(.blue)
+                }
+                
+                
+                Button(action: {
+                    isPresentingCameraView = true
+                }) {
+                    Text("Scan QR Code")
+                }
+                
+                
                 
             } else {
                 Button(action: {
