@@ -20,8 +20,8 @@ import AVFoundation
 struct ContentView: View {
     @State private var showWebView = false
     private let urlString1: String = "https://splitacademy.root8tech.com/"
-    private let urlString2: String = "https://splitacademy.root8tech.com/register"
-   // private let urlString3: String = "https://splitacademy.root8tech.com/time-table"
+    private let urlString2: String = "https://splitacademy.root8tech.com/wp-login.php"
+    // private let urlString3: String = "https://splitacademy.root8tech.com/time-table"
     
     @State private var showScanner = false
     
@@ -35,79 +35,78 @@ struct ContentView: View {
     )
     
     
-        var body: some View {
-
-           ZStack {
-                
-                Color(mainColor)
+    var body: some View {
+        
+        ZStack {
+            
+            Color(mainColor)
                 .edgesIgnoringSafeArea(.top)
-                Color.black
+            Color.black
                 .edgesIgnoringSafeArea(.bottom)
-               
-               
+            
+            
             VStack {
                 
                 TabView {
-                   WebView(url: URL(string: urlString1)!).frame(maxWidth: .infinity, maxHeight: .infinity)
-                                .tabItem {
-                                    Image(systemName: "house")
-                                    Text("Desk")
-                                }
-                            
-                   WebView(url: URL(string: urlString2)!).frame(maxWidth: .infinity, maxHeight: .infinity)
-                                .tabItem {
-                                    Image(systemName: "person.crop.circle")
-                                    Text("Register")
-                                }
-                            
-                    QRScannerView()
-                                .tabItem {
-                                    Image(systemName: "qrcode")
-                                    Text("Evaluation")
-                                }
-                    
-                    
+                    WebView(url: URL(string: urlString1)!).frame(maxWidth: .infinity, maxHeight: .infinity)
+                        .tabItem {
+                            Image(systemName: "house")
+                            Text("Desk")
                         }
-
-
-              // Normal WebView
-             
-                    //.shadow(color: .black.opacity(0.3), radius: 20.0, x: 5, y: 5)
-
+                    
+                    WebView(url: URL(string: urlString2)!).frame(maxWidth: .infinity, maxHeight: .infinity)
+                        .tabItem {
+                            Image(systemName: "person.crop.circle")
+                            Text("Register")
+                        }
+                    
+                    QRScannerView()
+                        .tabItem {
+                            Image(systemName: "qrcode")
+                            Text("Evaluation")
+                        }
+                    
+                }
+                
+                
+                // Normal WebView
+                
+                //.shadow(color: .black.opacity(0.3), radius: 20.0, x: 5, y: 5)
+                
                 /*
-                
-                // Create a link that opens in a new window
-                Link(destination: URL(string: urlString)!, label: {
-                    Text("Open in new window")
-                        .foregroundColor(.blue)
-                })
-                
                  
-                // Present WebView as a Bottom Sheet
-                Button {
-                    showWebView.toggle()
-                } label: {
-                    Text("Open in a sheet")
-                }
-                .sheet(isPresented: $showWebView) {
-                    WebView(url: URL(string: urlString)!)
-                }
-                Spacer()
+                 // Create a link that opens in a new window
+                 Link(destination: URL(string: urlString)!, label: {
+                 Text("Open in new window")
+                 .foregroundColor(.blue)
+                 })
+                 
+                 
+                 // Present WebView as a Bottom Sheet
+                 Button {
+                 showWebView.toggle()
+                 } label: {
+                 Text("Open in a sheet")
+                 }
+                 .sheet(isPresented: $showWebView) {
+                 WebView(url: URL(string: urlString)!)
+                 }
+                 Spacer()
                  
                  */
                 
                 // other views here
-                                
                 
-
-             } //V
-               
-        } //Z
+                
+                
+            } //V
             
+        } //Z
         
-
+        
+        
     }
-
+    
     // WebView Struct
     struct WebView: UIViewRepresentable {
         
@@ -122,14 +121,14 @@ struct ContentView: View {
             webView.load(request)
         }
     }
-
-
+    
+    
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
             ContentView()
         }
     }
-
+    
 }
 
 struct QRScannerView: View {
@@ -138,42 +137,48 @@ struct QRScannerView: View {
     @State private var showWebView2 = false
     
     
-
+    // WebView Struct
+    struct WebView: UIViewRepresentable {
+        
+        var url: URL
+        
+        func makeUIView(context: Context) -> WKWebView {
+            return WKWebView()
+        }
+        
+        func updateUIView(_ webView: WKWebView, context: Context) {
+            let request = URLRequest(url: url)
+            webView.load(request)
+        }
+    }
+    
     var body: some View {
         VStack {
             if let text = scannedText {
-                Text("Scanned QR: \(text)")
-                
                 
                 /*
-                 
-                Link(destination: URL(string: text)!, label: {
-                    Text("Open in new window")
-                        .foregroundColor(.blue)
-                })
-                 
-                */
-
-                
                 Link(destination: URL(string: text)!) {
                     Text("Open in same window")
                         .foregroundColor(.blue)
-                }
+                } */
                 
+                WebView(url: URL(string: text)!).frame(maxWidth: .infinity, maxHeight: .infinity)
                 
-                Button(action: {
-                    isPresentingCameraView = true
-                }) {
-                    Text("Scan QR Code")
-                }
-                
-                
-                
+                    Button(action: {
+                        isPresentingCameraView = true
+                    }) {
+                        Text("New Scan")
+                            .padding(3)
+                    }
+                    
             } else {
+                
                 Button(action: {
                     isPresentingCameraView = true
                 }) {
-                    Text("Scan QR Code")
+                    Text("Scan")
+                    Image(systemName: "qrcode")
+                    Text("Code")
                 }
             }
         }
@@ -263,5 +268,7 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
         
         session.stopRunning()
         delegate?.didScanText(text: stringValue)
+        dismiss(animated: true, completion: nil)
     }
 }
+
